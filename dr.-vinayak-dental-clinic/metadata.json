@@ -1,0 +1,6 @@
+{
+  "name": "Dr. Vinayak Dental Clinic",
+  "description": "Dr. Vinayak Dental Clinic in Yargatti, Karnataka. View clinic information, services, timings and book a dental appointment online.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

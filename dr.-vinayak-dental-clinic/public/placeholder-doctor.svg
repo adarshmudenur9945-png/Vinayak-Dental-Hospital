@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="docBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#E2E8F0" />
+    </linearGradient>
+    <linearGradient id="coatGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F1F5F9" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#docBg)" />
+  <circle cx="200" cy="180" r="140" fill="#0D9488" opacity="0.08" />
+  
+  <!-- Silhouette / Stylized Dental Specialist Outline -->
+  <g transform="translate(0, 10)">
+    <!-- Shoulders / Doctor Lab Coat -->
+    <path d="M100 370 C100 290 140 260 200 260 C260 260 300 290 300 370 Z" fill="url(#coatGrad)" stroke="#CBD5E1" stroke-width="2" />
+    
+    <!-- Coat Lapels and Dental Stethoscope / Scrubs collar -->
+    <path d="M170 260 L200 330 L230 260" fill="none" stroke="#0D9488" stroke-width="4" stroke-linecap="round" />
+    <polygon points="180,260 200,290 220,260 200,320" fill="#0F2942" />
+    
+    <!-- Head and Neck -->
+    <circle cx="200" cy="170" r="55" fill="#E2E8F0" stroke="#94A3B8" stroke-width="2" />
+    
+    <!-- Dental Loupes / Mirror Headband emblem -->
+    <circle cx="200" cy="125" r="14" fill="#0D9488" />
+    <circle cx="200" cy="125" r="7" fill="#CCFBF1" />
+  </g>
+
+  <!-- Verified Badge Overlay -->
+  <g transform="translate(200, 340)">
+    <rect x="-110" y="0" width="220" height="34" rx="17" fill="#0F2942" />
+    <text x="0" y="21" font-family="sans-serif" font-size="12" font-weight="600" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">DR. VINAYAK</text>
+  </g>
+</svg>

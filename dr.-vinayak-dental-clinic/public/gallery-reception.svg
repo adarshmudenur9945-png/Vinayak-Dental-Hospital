@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="recWall" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#E2E8F0" />
+    </linearGradient>
+    <linearGradient id="deskGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0F2942" />
+      <stop offset="100%" stop-color="#1E3A5F" />
+    </linearGradient>
+  </defs>
+
+  <!-- Wall & Floor -->
+  <rect width="800" height="400" fill="url(#recWall)" />
+  <rect y="400" width="800" height="200" fill="#E2E8F0" />
+
+  <!-- Wall Slat Accent & Clinic Signboard -->
+  <g transform="translate(240, 60)">
+    <rect width="320" height="90" rx="12" fill="#0F2942" />
+    <!-- Tooth Logo -->
+    <path d="M40 30 C30 30 25 38 25 46 C25 55 29 63 33 71 L40 65 L47 71 C51 63 55 55 55 46 C55 38 50 30 40 30 Z" fill="#0D9488" />
+    <path d="M37 45 H43 M40 42 V48" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" />
+    <!-- Clinic Name -->
+    <text x="70" y="46" font-family="sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" letter-spacing="1">DR. VINAYAK DENTAL CLINIC</text>
+    <text x="70" y="66" font-family="sans-serif" font-size="10" font-weight="500" fill="#99F6E4" letter-spacing="0.5">Yargatti, Karnataka · Ganagi Complex</text>
+  </g>
+
+  <!-- Reception Counter Desk -->
+  <g transform="translate(180, 240)">
+    <rect x="0" y="30" width="440" height="150" rx="16" fill="url(#deskGrad)" />
+    <!-- White Countertop -->
+    <rect x="-10" y="16" width="460" height="20" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" />
+    <!-- Front Wood/Teal Inset Accent -->
+    <rect x="40" y="60" width="360" height="8" rx="4" fill="#0D9488" />
+    <!-- Computer Monitor on Desk -->
+    <rect x="180" y="-30" width="70" height="46" rx="4" fill="#334155" />
+    <rect x="210" y="16" width="10" height="12" fill="#64748B" />
+    <ellipse cx="215" cy="27" rx="18" ry="4" fill="#475569" />
+  </g>
+
+  <!-- Comfortable Patient Waiting Chairs on side -->
+  <g transform="translate(40, 310)">
+    <rect x="0" y="40" width="90" height="60" rx="8" fill="#0D9488" />
+    <rect x="0" y="0" width="90" height="42" rx="8" fill="#14B8A6" />
+    <line x1="15" y1="100" x2="10" y2="140" stroke="#334155" stroke-width="4" stroke-linecap="round" />
+    <line x1="75" y1="100" x2="80" y2="140" stroke="#334155" stroke-width="4" stroke-linecap="round" />
+  </g>
+
+  <!-- Modern Indoor Potted Plant -->
+  <g transform="translate(680, 280)">
+    <polygon points="20,120 60,120 70,180 10,180" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2" />
+    <path d="M40 120 Q30 70 10 50" fill="none" stroke="#0D9488" stroke-width="6" stroke-linecap="round" />
+    <path d="M40 120 Q50 60 70 30" fill="none" stroke="#10B981" stroke-width="6" stroke-linecap="round" />
+    <path d="M40 120 Q40 40 40 15" fill="none" stroke="#059669" stroke-width="6" stroke-linecap="round" />
+  </g>
+</svg>
